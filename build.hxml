@@ -1,0 +1,7 @@
+-js bin/main.js
+
+-lib react
+-D react_global
+
+-cp src
+-main Main.hx

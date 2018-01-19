@@ -1,0 +1,36 @@
+{
+  "name": "sample-haxe-loader",
+  "version": "1.0.0",
+  "description": "sample-haxe-loader",
+  "main": "webpack.config.js",
+  "bin": {
+    "sample-haxe-loader": "main.js"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobrusev/sample-haxe-loader.git"
+  },
+  "keywords": [
+    "sample",
+    "haxe",
+    "haxe-loader"
+  ],
+  "author": "Dobrin Rusev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dobrusev/sample-haxe-loader/issues"
+  },
+  "homepage": "https://github.com/dobrusev/ssample-haxe-loader#readme",
+  "devDependencies": {
+    "haxe-loader": "^0.7.0",
+    "react": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
